@@ -57,5 +57,28 @@ namespace w010201
             }
         }
 
+        public void showTopStdList(int n)
+        {
+            Console.WriteLine("Top N:" + className);
+
+            // data
+            students.Sort(
+                delegate(Student x, Student y)
+                {
+                    if (x.Grade < y.Grade)
+                    {
+                        return 1;
+                    } else
+                    {
+                        return -1;
+                    }
+                });
+
+            foreach (Student student in students)
+            {
+                Console.WriteLine($"{student.LastName}  {student.FirstName}  {student.Grade}");
+            }
+        }
+
     }
 }

@@ -33,11 +33,29 @@ namespace w010201
         {
             Console.WriteLine("Find: " + className + " co ten " + xname);
 
-            var filstudents = from x in students where x.FirstName == xname select x;
+            var filstudents = 
+                from x in students 
+                where x.FirstName == xname 
+                select x;
             foreach (Student student in filstudents)
             {
                 Console.WriteLine($"{student.LastName}  {student.FirstName}");
             }
         }
+
+        public void showStdList(int maxA, float minG)
+        {
+            Console.WriteLine("Find-Age+Grade: " + className + " co tuoi " + maxA);
+
+            var filstudents =
+                from x in students
+                where (x.Age < maxA && x.Grade > minG)
+                select x;
+            foreach (Student student in filstudents)
+            {
+                Console.WriteLine($"{student.LastName}  {student.FirstName}");
+            }
+        }
+
     }
 }

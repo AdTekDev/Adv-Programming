@@ -13,10 +13,13 @@ namespace w010201
 
         public int Age { get; set; }
 
-        public Student(string fn, string ln, int y = 21) {
+        public float  Grade { get; set; }
+
+        public Student(string fn, string ln, int y = 21, float diem=0) {
             FirstName = fn; 
             LastName = ln; 
             Age = y;
+            Grade = diem;
         }
     }
 }

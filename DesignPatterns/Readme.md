@@ -80,6 +80,21 @@
 ...
 
 
+# UIUX - HCI
+
+## The 10 Nielsen heuristics
+
+- Visibility of system status;
+- Match between system and the real world;
+- User control and freedom;
+- Consistency and standards;
+- Error prevention;
+- Recognition rather than recall;
+- Flexibility and efficiency of use;
+- Aesthetic and minimalist design;
+- Help users recognize, diagnose, and recover from errors;
+- Help and documentation.
+
 
 
 # REFs
@@ -90,4 +105,7 @@
 
 ## TERMs  
 - Open Group Architecture Framework (TOGAF) 
-- 
+- GoF
+- DRY - Don’t Repeat Yourself
+- KISS
+- WYSIWYG

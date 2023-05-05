@@ -1,13 +1,35 @@
 
 # Design Patterns  
 
-## Creational Patterns  
+## Creational Patterns (5+)  
+- Factory Method    
+- Abstract Factory    
+- Builder    
+- Prototype    
+- Singleton    
 
+## Structural Patterns (7+)  
+- Adapter  
+- Bridge   
+- Composite  
+- Decorator  
+- Facade  
+- Flyweight  
+- Proxy  
 
-## Structural Patterns  
+## Behavioral Patterns (11+)    
+- Interpreter  
+- Template Method  
+- Chain of Responsibility  
+- Command  
+- Iterator  
+- Mediator  
+- Memento  
+- Observer  
+- State  
+- Strategy  
+- Visitor  
 
-
-## Behavioral Patterns  
 
 # SOLID Principles  
 - S - Single responsibility principle  

@@ -16,7 +16,20 @@
 - I - Interface segregation principle  
 D - Dependency inversion principle
 
-Links:
+
+# GRASP Design Principles  
+- Creator  
+- Information Expert  
+- Low Coupling  
+- Controller  
+- High Cohesion  
+- Indirection  
+- Polymorphism  
+- Protected Variations  
+- Pure Fabrication  
+
+
+# Links:
 - https://refactoring.guru/design-patterns/csharp 
 - https://www.dofactory.com/net/design-patterns  
 - 

@@ -27,5 +27,5 @@ Tham khảo:
 
   
 ## Class Diagram
-- Classes
+- Classes (properties, methods, ..)
 - Relationship

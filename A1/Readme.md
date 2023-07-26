@@ -3,7 +3,7 @@
 ## UseCase
 
 ### Usecase Diagram
-- Actors
+- Actors (5+: guest, user/customer, staff, manager, admin, ...)
 - Usecases
   
 ### UseCase Scenario

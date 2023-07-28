@@ -8,7 +8,7 @@ int i;
 for(i=0; i<lines; i++) {
     Console.WriteLine($"Nhap nguoi thu {i}:  ");
     var tt = Console.ReadLine().Split();
-    dsNhanVien.Add(new Person(tt[0], int.Parse(tt[1])));
+    dsNhanVien.Add(new Person(tt[0], int.Parse(tt[1]), 700));
 }
 
 for(i=0; i<lines; i++) {

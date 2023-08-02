@@ -6,5 +6,9 @@ public class Student : Person {
     {        
         this.School = school;
     }
+
+    public void Study() {
+        Console.WriteLine($"{this.Name} hoc tai {this.School}");
+    }
 }
 

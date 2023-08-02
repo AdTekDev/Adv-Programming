@@ -6,5 +6,9 @@ public class Employee : Person {
     {
         this.Company = company;
     }
+
+    public void Work() {
+        Console.WriteLine($"{this.Name} lam viec tai {this.Company}");
+    }
 }
 
